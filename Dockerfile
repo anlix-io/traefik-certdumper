@@ -8,5 +8,5 @@ ADD monitor.sh /
 
 RUN apk add --update inotify-tools
 
-CMD bash /monitor.sh ${ACME_PATH} ${CERT_DIR}
+CMD /monitor.sh ${ACME_PATH} ${CERT_DIR}
 

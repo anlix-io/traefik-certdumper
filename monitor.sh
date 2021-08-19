@@ -1,5 +1,3 @@
-#!/bin/bash
-
 ACME_PATH=$1
 CERT_DIR=$2
 
